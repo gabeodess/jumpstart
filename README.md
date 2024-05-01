@@ -11,13 +11,15 @@ This is a base application that includes tooling for user authentication.
 
 ### System
  - Install RVM: https://rvm.io/rvm/install
- - Install the appropriate version of ruby using RVM (`rvm install 3.2.2`)
+ - Install the appropriate version of ruby specified in `.ruby-version` using RVM
+ - Install postgres `brew install postgresql`
  - `gem install bundler`
  - `brew install node`
  - `brew install yarn`
 
 ### The app
  - Copy the [master key](https://drive.google.com/drive/u/1/folders/1l2smnyWCik8UxDwvLBjSsT7PkMZ2b5nt) into `/config/master.key`
+ - `cd` into project directory
  - `bundle install`
  - `yarn install`
  - `rails db:setup`
