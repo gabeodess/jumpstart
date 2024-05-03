@@ -72,3 +72,4 @@ end
 
 gem 'bcrypt'
 gem 'rollbar'
+gem 'stripe-rails'
